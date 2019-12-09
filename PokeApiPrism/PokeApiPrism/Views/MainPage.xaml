@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:bc="clr-namespace:PokeApiPrism.ViewModels"
+             xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView"
+             x:Class="PokeApiPrism.Views.MainPage"
+             Title="Pokemon">
+    <ContentPage.Content>
+        <StackLayout>
+            <flv:FlowListView 
+                VerticalOptions="FillAndExpand"
+                FlowColumnCount="3"
+                SeparatorVisibility="Default"
+                FlowItemsSource="{Binding Pokes}" 
+                IsPullToRefreshEnabled="True"
+                IsRefreshing="{Binding IsRefreshing}"
+                RefreshCommand="{Binding RefreshingCommand}"
+                FlowLastTappedItem="{Binding Pokemon,Mode=TwoWay}"
+                FlowItemTappedCommand="{Binding itemTappedCommand}"
+                SelectionMode="Single"
+                HasUnevenRows="True">
+                <flv:FlowListView.FlowColumnTemplate>
+                    <DataTemplate>
+                        <StackLayout Padding="2">
+                            <Frame HasShadow="True" CornerRadius="10">
+                                <StackLayout Orientation="Vertical">
+                                    <Image Source="{Binding sprites.front_default}" Aspect="AspectFit" HeightRequest="100" WidthRequest="100"/>
+                                    <Label Text="{Binding name}" VerticalOptions="Center" FontSize="Small" HorizontalOptions="Center"/>
+                                </StackLayout>
+                            </Frame>
+                            <BoxView HeightRequest="1"/>
+                        </StackLayout>
+                    </DataTemplate>
+                </flv:FlowListView.FlowColumnTemplate>
+            </flv:FlowListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

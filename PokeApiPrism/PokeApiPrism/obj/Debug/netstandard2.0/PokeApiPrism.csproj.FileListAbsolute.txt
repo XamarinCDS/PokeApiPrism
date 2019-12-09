@@ -1,0 +1,12 @@
+C:\Users\bryan\source\repos\PokeApiPrism\PokeApiPrism\PokeApiPrism\bin\Debug\netstandard2.0\PokeApiPrism.deps.json
+C:\Users\bryan\source\repos\PokeApiPrism\PokeApiPrism\PokeApiPrism\bin\Debug\netstandard2.0\PokeApiPrism.dll
+C:\Users\bryan\source\repos\PokeApiPrism\PokeApiPrism\PokeApiPrism\obj\Debug\netstandard2.0\PokeApiPrism.csprojAssemblyReference.cache
+C:\Users\bryan\source\repos\PokeApiPrism\PokeApiPrism\PokeApiPrism\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\bryan\source\repos\PokeApiPrism\PokeApiPrism\PokeApiPrism\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\bryan\source\repos\PokeApiPrism\PokeApiPrism\PokeApiPrism\obj\Debug\netstandard2.0\PokeApiPrism.AssemblyInfoInputs.cache
+C:\Users\bryan\source\repos\PokeApiPrism\PokeApiPrism\PokeApiPrism\obj\Debug\netstandard2.0\PokeApiPrism.AssemblyInfo.cs
+C:\Users\bryan\source\repos\PokeApiPrism\PokeApiPrism\PokeApiPrism\obj\Debug\netstandard2.0\Views\InfoPage.xaml.g.cs
+C:\Users\bryan\source\repos\PokeApiPrism\PokeApiPrism\PokeApiPrism\obj\Debug\netstandard2.0\PokeApiPrism.dll
+C:\Users\bryan\source\repos\PokeApiPrism\PokeApiPrism\PokeApiPrism\obj\Debug\netstandard2.0\PokeApiPrism.pdb
+C:\Users\bryan\source\repos\PokeApiPrism\PokeApiPrism\PokeApiPrism\bin\Debug\netstandard2.0\PokeApiPrism.pdb
+C:\Users\bryan\source\repos\PokeApiPrism\PokeApiPrism\PokeApiPrism\obj\Debug\netstandard2.0\XamlC.stamp
